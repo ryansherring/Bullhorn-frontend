@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+   }
+
+.card{
+    justify-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.5);
+}
+.left{
+    height: 80vh;
+    text-align: center;
+    margin-left: 10vw;
+    box-shadow: rgba(0,0,0,0.5);
+}
+.right{
+    height: 80vh;
+    text-align: center;
+    margin-right: 10vw;
+    box-shadow: rgba(0,0,0,0.5);
+}
+
+
+.btn-primary {
+    margin-left: 11vw;
+    justify-self: center;
+    margin-top: 10vh;
+    border-radius: 50%;
+    box-shadow: rgba(0,0,0,0.5);
+    height: 20vh;
+    width: 10vw;
+}
+.btn-primary:active {
+        justify-items: center;
+        transform: scale(2.5);
+        transition: 0.2s ease-in;
+}
+
+.timer-wrapper{
+    margin-left: 11vw;
+    justify-self: center;
+    margin-top: 10vh;
+    border-radius: 50%;
+    box-shadow: rgba(0,0,0,0.5);
+    height: 20vh;
+    width: 10vw;
+}
+.timer {
+    text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+
+
